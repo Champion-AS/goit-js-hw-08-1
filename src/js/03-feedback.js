@@ -23,7 +23,7 @@ function formSubmit(event) {
 }
 
 function storageFormData(event) {
-    const formValue = { email: '', massage: '' };
+    const formValue = { email: '', message: '' };
 
    if (localStorage.getItem(localForm)) {
         Object.assign(formValue, JSON.parse(localStorage.getItem(localForm)))
